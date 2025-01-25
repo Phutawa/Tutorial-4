@@ -31,7 +31,7 @@ public class QueueClass {
             System.out.println("the queue is full can't enqueue !!");
         } else {
             QueueArray[EndPointer++] = value ;
-            System.out.println(value + " has been enqueue.");
+            System.out.println("Enqueue " + value);
         }
 
     }
@@ -42,7 +42,7 @@ public class QueueClass {
         } else {
             String ElementDequeue = " ";
             ElementDequeue = QueueArray[FrontPointer];
-            System.out.println(ElementDequeue + " has been dequeue from the queue.");
+            System.out.println("Dequeue " + ElementDequeue);
             FrontPointer++;
         }
     }
